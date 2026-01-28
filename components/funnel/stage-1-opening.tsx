@@ -37,7 +37,7 @@ export function Stage1Opening({ onNext }: Stage1OpeningProps) {
 
         <div className="space-y-4 sm:space-y-6 px-2">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-balance leading-tight">
-          Use esse <span className="text-[rgba(132,29,170,1)]">Sistema da Loto</span> para acertar 12 números ou mais toda semana.
+          Use esse <span className="text-[rgba(132,29,170,1)]">Sistema IA LUCRATIVA  </span> para acertar 15 números essa semana.
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground text-pretty">

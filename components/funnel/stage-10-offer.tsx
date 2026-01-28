@@ -130,8 +130,8 @@ export default function IaLiberadaPage() {
         <div className="max-w-3xl w-full space-y-6 sm:space-y-8">
           <div className="text-center space-y-3 sm:space-y-4 px-2">
             <p className="mt-2 text-black text-xl sm:text-4xl">
-              Acesse agora a <span className="font-bold text-primary">LOTOFÁCIL com inteligência artificial.</span> Faça
-              12 pontos ou mais HOJE mesmo
+              Acesse agora o <span className="font-bold text-primary">Sistema IA LUCRATIVA e</span> Faça
+              15 pontos AINDA ESSA SEMANA
             </p>
 
             <div className="w-full flex justify-center px-2 sm:px-4">
@@ -145,7 +145,7 @@ export default function IaLiberadaPage() {
             </div>
 
             <p className="text-base sm:text-lg md:text-xl text-red-500">
-              {"RESTAM APENAS 15 VAGAS!"}
+              {"RESTAM POUCOS ACESSOS!"}
             </p>
           </div>
 
