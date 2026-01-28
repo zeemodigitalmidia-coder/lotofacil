@@ -63,6 +63,12 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        {/* VERIFICAÇÃO DE DOMÍNIO META */}
+        <meta
+          name="facebook-domain-verification"
+          content="63pf4i5dqx30i73mjoxw91gi8v6ak6"
+        />
+
         {/* Preconnect Meta */}
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
 

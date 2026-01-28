@@ -134,6 +134,16 @@ export default function IaLiberadaPage() {
               12 pontos ou mais HOJE mesmo
             </p>
 
+            <div className="w-full flex justify-center px-2 sm:px-4">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-HCSMU5cQeVTahaHLr2AT4Hi5lIoQ5G.png"
+                alt="Use a IA Lucrativa para lucrar todo dia na Lotofácil - Por Sergio Abravanel"
+                width={600}
+                height={600}
+                className="w-full max-w-[280px] sm:max-w-[400px] md:max-w-[500px] h-auto sm:rounded-2xl shadow-lg rounded-xl"
+              />
+            </div>
+
             <p className="text-base sm:text-lg md:text-xl text-red-500">
               {"RESTAM APENAS 15 VAGAS!"}
             </p>

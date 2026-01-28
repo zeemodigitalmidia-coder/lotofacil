@@ -23,14 +23,14 @@ export function Stage1Opening({ onNext }: Stage1OpeningProps) {
         <div className="relative mx-auto w-full max-w-[280px] sm:max-w-md animate-float">
           <div className="absolute inset-0 bg-lime-500/20 blur-3xl rounded-full" />
           <Image
-            src="/images/design-mode/celular-lotofacil-real.jpg.webp"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-fQ4YwdpdGo8ruj7VI5oGnTIIKgjxb7.png"
             alt="Celular com Lotofácil"
             width={490}
             height={490}
             priority
             fetchPriority="high"
             quality={75}
-            className="relative z-10 w-full h-auto rounded-2xl shadow-2xl"
+            className="relative z-10 w-full h-auto shadow-2xl rounded-xl"
             sizes="(max-width: 640px) 280px, 490px"
           />
         </div>
