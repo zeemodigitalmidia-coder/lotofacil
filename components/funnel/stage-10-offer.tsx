@@ -130,7 +130,7 @@ export default function IaLiberadaPage() {
         <div className="max-w-3xl w-full space-y-6 sm:space-y-8">
           <div className="text-center space-y-3 sm:space-y-4 px-2">
             <p className="mt-2 text-black text-xl sm:text-4xl">
-              Acesse agora a <span className="font-bold text-primary">LOTOFÁCIL com inteligência artificial.</span> Faça
+              Acesse agora o <span className="font-bold text-primary">Sistema IA LUCRATIVA e</span> Faça
               15 pontos AINDA ESSA SEMANA
             </p>
 
