@@ -29,7 +29,7 @@ export default function IaLiberadaPage() {
   const [timeLeft, setTimeLeft] = useState(600) // 10 minutes
   const [spotsLeft, setSpotsLeft] = useState(20)
   const [currentDate, setCurrentDate] = useState("")
-  const [buttonDelay, setButtonDelay] = useState(300) // 5 minutes delay
+  const [buttonDelay, setButtonDelay] = useState(0) // Declare buttonDelay variable
 
   useEffect(() => {
     const date = new Date()
@@ -47,14 +47,14 @@ export default function IaLiberadaPage() {
       setSpotsLeft((prev) => (prev > 5 ? prev - 1 : prev))
     }, 15000)
 
-    const delayTimer = setInterval(() => {
+    const buttonTimer = setInterval(() => {
       setButtonDelay((prev) => (prev > 0 ? prev - 1 : 0))
     }, 1000)
 
     return () => {
       clearInterval(timer)
       clearInterval(spotsTimer)
-      clearInterval(delayTimer)
+      clearInterval(buttonTimer)
     }
   }, [])
 
@@ -211,16 +211,9 @@ export default function IaLiberadaPage() {
           <Button
             onClick={handlePurchase}
             size="lg"
-            disabled={buttonDelay > 0}
-            className={`w-full text-white tracking-normal text-xl sm:text-2xl px-8 sm:px-12 py-8 sm:py-10 h-auto rounded-2xl font-bold touch-manipulation ${
-              buttonDelay > 0
-                ? "bg-gray-400 cursor-not-allowed"
-                : "bg-[#04a80c] hover:bg-[#04a80c]/90 animate-bounce-attention"
-            }`}
+            className="w-full text-white tracking-normal text-xl sm:text-2xl px-8 sm:px-12 py-8 sm:py-10 h-auto rounded-2xl font-bold animate-bounce-attention touch-manipulation bg-[#04a80c] hover:bg-[#04a80c]/90"
           >
-            {buttonDelay > 0
-              ? `Aguarde ${Math.floor(buttonDelay / 60)}:${(buttonDelay % 60).toString().padStart(2, "0")} para liberar`
-              : "Liberar Acesso Agora🍀"}
+            Liberar Acesso Agora🍀
           </Button>
 
           <p className="flex items-center justify-center gap-2 text-sm text-foreground">
