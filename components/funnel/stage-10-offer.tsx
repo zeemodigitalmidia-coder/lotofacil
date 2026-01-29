@@ -142,7 +142,7 @@ export default function IaLiberadaPage() {
 
             <div className="w-full flex justify-center px-2 sm:px-4">
               <Image
-                src="/images/2.png"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-BlJZnojdRrF0yfhDyM5RXQElx6Bo8z.png"
                 alt="Use a IA Lucrativa para lucrar todo dia na Lotofácil - Por Sergio Abravanel"
                 width={600}
                 height={600}
