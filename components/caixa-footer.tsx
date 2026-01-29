@@ -77,8 +77,7 @@ export function CaixaFooter() {
       <div className="bg-[#a7348b] py-4 px-4 text-primary">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-white text-xs sm:text-sm">
-            CAIXA ECONÔMICA FEDERAL - CNPJ 00.360.305/0001-04, SBS QUADRA 4 LT 3/4, ASA SUL – CEP 70.070-140 BRASÍLIA –
-            DF
+            SERGIO ABRAVANEL SISTEMA - CNPJ 00.360.305/0001-04, SBS QUADRA 4 LT 3/4, ASA SUL – CEP 70.070-140 BRASÍLIA – DF
           </p>
         </div>
       </div>
