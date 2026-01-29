@@ -151,7 +151,7 @@ export default function IaLiberadaPage() {
             </div>
 
             <p className="text-base sm:text-lg md:text-xl text-red-500">
-              {"RESTAM POUCOS ACESSOS!"}
+              {"ÚLTIMOS ACESSOS!"}
             </p>
           </div>
 
